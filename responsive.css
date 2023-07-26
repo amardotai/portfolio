@@ -1,5 +1,4 @@
 @media (orientation: portrait) {
-    /* Portrait(세로) 모드일 때 적용할 CSS */
     .main-avatars-wrap span img {
         width: 320px;
         margin: 0 -50px -6px;
@@ -7,7 +6,6 @@
 }
 
 @media (orientation: landscape) {
-    /* Landscape(가로) 모드일 때 적용할 CSS */
     canvas {
         height: 100vh;
     }
