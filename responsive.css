@@ -47,7 +47,7 @@
     }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 400px) {
     .notice {
         display: inline-block;
     }
@@ -137,8 +137,29 @@
     margin-right: 2rem;
 }
 
+.notice {
+    display: none;
+    visibility: collapse;
+    margin-right: 0.3rem;
+}
+.main-key-wrap {
+    font-size: 1.6rem;
+    line-height: 1.6em;
+}
 
+.section-inner-con{
+    color: #000;
+}
     
+.qualification{
+    padding-top: 2rem;
+}
+
+.qualification-title{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #000;
+}
 }
 
 @media (min-width: 600px) {

@@ -313,7 +313,6 @@ section {
     line-height: 1em;
     padding-right: 0.3em;
     margin: -0.3rem 0;
-    ;
 }
 
 .team-copy1-wrap {
@@ -506,3 +505,7 @@ section {
     margin-top: -45vh;
 }
 
+svg{
+    color: inherit;
+    fill: inherit;
+}
