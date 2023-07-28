@@ -47,6 +47,100 @@
     }
 }
 
+@media (min-width: 320px) {
+    .notice {
+        display: inline-block;
+    }
+    .member {
+        margin-top: -40vh;
+    }
+    .member-con {
+        width: 500px;
+    }
+    .roadmap-con {
+        width: calc(50% - 1rem);
+    }
+
+    .project-odd{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        z-index: 5;
+        margin-top: -45vh;
+    }
+
+    .project-even{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+        z-index: 5;
+        margin-top: -45vh;
+    }
+
+    .roadmap-con {
+        width: 100%;
+        text-align: left;
+        border-radius: 0.7rem;
+        margin: 0.2rem;
+        padding: 1.5rem 2rem;
+        color: #fff;
+        background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px,solid,rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+
+    .roadmap-con-title a{
+        text-decoration: none;
+        color: #171010;
+        background-color: #fff;
+        padding: 0.4rem;
+        border-radius: 20%;
+        margin: 0.2rem;
+        font-size: 0.8rem;
+    }
+
+    .member {
+        margin: 5%;
+        padding:0;
+        position: relative;
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        z-index: 5;
+        margin-top: -30vh;
+        background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 20px;
+        border: 1px,solid,rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+
+    .member-con-inner{
+        text-align: center;
+        font-size: 0.5rem;
+        margin: 0.5rem 1rem;
+    }
+
+    
+.member-con {
+    width: 60%;
+}
+
+.main-avatars-wrap span img {
+    width: 60px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+    
+}
+
 @media (min-width: 600px) {
     .notice {
         display: inline-block;
