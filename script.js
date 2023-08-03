@@ -8,7 +8,7 @@ canvas.height = 1080;
 
 const frameCount = 300;
 const currentFrame = (index) =>
-  `./result3/male${(index + 1).toString().padStart(4, "0")}.png`;
+  `./frames/male${(index + 1).toString().padStart(4, "0")}.webp`;
 
 const images = [];
 const cyberfiction = {
