@@ -2,12 +2,12 @@ gsap.registerPlugin(ScrollTrigger);
 const canvas = document.getElementById("cyber-intro"),
   context = canvas.getContext("2d");
 (canvas.width = 1920), (canvas.height = 1080);
-const frameCount = 300,
+const frameCount = 290,
   currentFrame = (e) =>
     `./frames/male${(e + 1).toString().padStart(4, "0")}.webp`,
   images = [],
   cyberfiction = { frame: 0 };
-for (let i = 0; i < 300; i++) {
+for (let i = 0; i < 290; i++) {
   let e = new Image();
   (e.src = currentFrame(i)), images.push(e);
 }
@@ -16,7 +16,7 @@ function render() {
     context.drawImage(images[cyberfiction.frame], 0, 0);
 }
 gsap.to(cyberfiction, {
-  frame: 299,
+  frame: 290,
   snap: "frame",
   scrollTrigger: { scrub: 1 },
   onUpdate: render,
