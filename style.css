@@ -155,6 +155,11 @@ table {
     font-weight: 400;
 }
 
+.t-normal-yellow {
+    font-weight: 400;
+    color:#fff01f;
+}
+
 .t-thin {
     font-weight: 200;
     color: #000;
@@ -223,6 +228,12 @@ header {
     display: flex;
     align-items: center;
     z-index: 50;
+
+    background: rgba( 95, 95, 95, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    /* border-radius: 10px; */
 }
 
 header h1 {
@@ -671,6 +682,8 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 #contacts-side a{
@@ -678,6 +691,9 @@ section {
     color: #fff;
     padding: 1rem;
 }
+
+
+
 
 .qualification{
     padding-top: 5rem;
