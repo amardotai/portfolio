@@ -160,6 +160,11 @@ table {
     color:#fff01f;
 }
 
+.t-normal-grey {
+    font-weight: 400;
+    color:#808080;
+}
+
 .t-thin {
     font-weight: 200;
     color: #000;
@@ -351,7 +356,18 @@ section {
     line-height: 1.2em;
 }
 
-.content-con {
+/* .content-con {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    /* overflow-x: hidden; */
+    /* text-align: center; */
+/* } */
+
+.content-con{
     width: 100%;
     height: 100%;
     display: flex;
@@ -360,6 +376,26 @@ section {
     justify-content: flex-start;
     overflow-x: hidden;
     text-align: center;
+}
+
+.dual-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.content-header{
+    height: 100vh;
+    background-color: #fff01f;
+    position: sticky;
+    top:40px;
+
 }
 
 .content-inner {
@@ -414,7 +450,7 @@ section {
 }
 
 .c-roadmap {
-    position: relative;
+    /* position: relative; */
     width: 100%;
     height: 100%;
     padding-top: 10rem;
@@ -693,8 +729,6 @@ section {
 }
 
 
-
-
 .qualification{
     padding-top: 5rem;
 }
@@ -718,6 +752,7 @@ section {
     margin-bottom: 6rem;
     z-index: 5;
     margin-top: -45vh;
+    padding: 0 3.5rem;
 }
 
 .project-odd{
@@ -726,6 +761,7 @@ section {
     justify-content: flex-start;
     z-index: 5;
     margin-top: -45vh;
+    padding: 0 3.5rem;
 }
 
 svg{
@@ -753,6 +789,12 @@ svg{
         justify-content: center;
         padding-top: 0;
     }
+
+    .dual-content {
+        justify-content: center;
+        padding-top: 0;
+    }
+
     .section-inner {
         display: flex;
         justify-content: space-between;
@@ -795,6 +837,13 @@ svg{
     }
     .roadmap-con {
         width: calc(50% - 1rem);
+    }
+    .dual-content{
+        flex-direction: column;
+    }
+    .content-header{
+        height: fit-content;
+        z-index: 6;
     }
 
     .project-odd{
