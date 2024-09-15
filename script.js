@@ -75,14 +75,14 @@ gsap
 gsap
   .timeline({
     scrollTrigger: {
-      trigger: ".c-roadmap",
+      trigger: ".dual-content",
       pin: !1,
       start: "top center",
       end: "top top",
       scrub: 1,
     },
   })
-  .to(".c-roadmap", { color: "#fff", backgroundColor: "#171010" })
+  .to(".dual-content", { color: "#fff", backgroundColor: "#171010" })
   .to("header", { color: "#fff" })
   .to(".button-round", {
     color: "#171010",
