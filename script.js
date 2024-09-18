@@ -93,6 +93,26 @@ gsap
     backgroundColor: "#808080",
   });
 
+let sections = document.querySelectorAll(".sec");
+let atags = document.querySelectorAll(".content-navigation a");
+window.onscroll = () => {
+  sections.forEach((sec) => {
+    let top = window.screenY;
+    let offset = sec.offsetTop - 150;
+    let height = sec.offsetHeight;
+    let id = sec.getAttribute("id");
+
+    if (top >= offset && top < offset + height) {
+      atags.forEach((a) => {
+        a.classList.remove("active");
+        document
+          .querySelector(".content-navigation a [href*=" + id + "]")
+          .classList.add("active");
+      });
+    }
+  });
+};
+
 window.addEventListener("load", () => {
   document.body.classList.remove("before-load");
 });
