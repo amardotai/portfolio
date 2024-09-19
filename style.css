@@ -905,6 +905,7 @@ svg{
         justify-content: flex-start;
         z-index: 5;
         margin-bottom: 20vh;
+        width: fit-content;
     }
 
     .project-even{
@@ -915,6 +916,7 @@ svg{
         margin-bottom: 6rem; */
         z-index: 5;
         margin-bottom: 20vh;
+        width: fit-content;
     }
     .team-copy1-wrap,
 .team-copy2-wrap,
