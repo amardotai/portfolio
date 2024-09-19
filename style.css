@@ -839,6 +839,48 @@ svg{
 }
 
 @media (max-width: 600px) {
+    .content-navigation{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        height: fit-content;
+        padding: 0 0;
+    }
+
+    .content-navigation  a{
+        /* width: 50%; */
+        text-decoration: none;
+        color: #808080;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .content-navigation  a:hover{
+        color: #000;
+        font-weight: 800;
+        transition: 0.2s;
+    }
+
+    .content-navigation a:active{
+        color: #000;
+        font-weight: 800;
+        transition: 0.2s;
+    }
+
+    
+
+    .content-nav-element:hover{
+        border-bottom: 2px solid #000;
+        /* transition: 02s; */
+    }
+
+    .content-nav-text{
+        padding: 5%;
+        background: #fff01f;
+        font-size: 1rem;
+
+    }
 #contacts-side{
     height: 30vh;
 }
